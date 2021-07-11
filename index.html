@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        h5{
+            color: tomato;
+            text-transform: uppercase;
+        }
+        p,li{
+            color: darkorange;
+            text-transform: lowercase;
+            margin: 0px;
+            padding: 0px
+        }
+        #main{
+            font-weight: bold;
+            background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        }
+        #jks{
+            text-shadow: 1px 1px #000000;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="jks">Jokes Generator</h2>
+    <label for="joke" id="main">Every Time You Click You'll Get Ten Jokes</label> 
+    <!-- <input type="text" name="number" id="input" placeholder="type it in alphabets"> -->
+    <br>
+    <button id="button">Click</button>
+    <br>
+    <div id="output"></div>
+    <script src="app.js"></script>
+</body>
+</html>
